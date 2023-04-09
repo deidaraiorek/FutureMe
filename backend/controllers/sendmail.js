@@ -15,7 +15,7 @@ mailRouter.post("/sendmail", (req, res) => {
   let time = req.body.time;
   console.log(email, subject, text, time);
   let options = {
-    from: SENDER,
+    from: "phamhuudang24122004@gmail.com",
     to: email,
     subject: subject,
     text: text,
